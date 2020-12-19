@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d83c35</color>
+    <color name="colorPrimary_backup">#3F51B5</color>
+    <color name="colorPrimaryDark">#b81c15</color>
+    <color name="colorPrimaryDark_bakcup">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="backgroundmask">#ddffffff</color>
+    <color name="red">#FF0000</color>
+    <color name="tabspecitem">#908a97</color>
+    <color name="selectedtab">#d83c35</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="actionbar">#a0a0a0</color>
+    <color name="background">#efefef</color>
+</resources>

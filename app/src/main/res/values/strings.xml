@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">게임캐스트</string>
+
+    <string name="car_image">car_image</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">1821449138085789</string>
+    <string name="kakao_app_key">7e8517a1b2b4fa4f669803025754e655</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-8808114363925444/2901912012</string>
+    <string name="banner_ad2_unit_id">ca-app-pub-8808114363925444/7378824012</string>
+    <string name="loadingtext">게임캐스트를 불러오는 중...</string>
+
+    <string name="naver_oauth_client_id">4piafujUf5Zbl5vUwSzC</string>
+    <string name="naver_oauth_client_secret">QWj9HHmKUp</string>
+    <string name="naver_oauth_client_name">네이버 아이디로 로그인</string>
+
+
+</resources>

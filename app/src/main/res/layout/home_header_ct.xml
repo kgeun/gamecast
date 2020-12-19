@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/img_pcdetail_tnil"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/zpc"
+        android:scaleType="centerCrop"
+        android:cropToPadding="true" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradiant"
+        android:layout_alignBottom="@+id/img_pcdetail_tnil" />
+    <LinearLayout
+        android:layout_marginLeft="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignBottom="@+id/img_pcdetail_tnil">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:text="Events"
+            android:gravity="bottom"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:id="@+id/txt_homeheader_title"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:text="Some description about the events goes here"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:id="@+id/txt_homeheader_desc"
+            />
+    </LinearLayout>
+</RelativeLayout>

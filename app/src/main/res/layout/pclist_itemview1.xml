@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="14dp"
+    android:paddingRight="10dp">
+
+    <net.poisonlab.gamecast.CircularImageView
+        xmlns:app="http://schemas.android.com/apk/res/net.poisonlab.gamecast"
+        app:civ_border_width="2dp"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:id="@+id/img_pclist_itemview1_tnil"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/zpc"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/img_pclist_itemview1_star1"
+                android:src="@drawable/ratingicon"
+                android:adjustViewBounds="true"
+                android:maxHeight="20dp"
+                android:maxWidth="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/img_pclist_itemview1_star2"
+                android:src="@drawable/ratingicon"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="2dp" />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/img_pclist_itemview1_star3"
+                android:src="@drawable/ratingicon"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="2dp" />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/img_pclist_itemview1_star4"
+                android:src="@drawable/ratingicon"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="2dp" />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/img_pclist_itemview1_star5"
+                android:src="@drawable/ratingiconhalf"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5"
+                android:id="@+id/txt_pclist_itemview1_rating"
+                android:textSize="13sp"
+                android:layout_marginRight="10dp" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/img_pclist_itemview1_editicon"
+                android:src="@android:drawable/ic_menu_edit"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/txt_pclist_itemview1_reviewcount"
+                android:layout_toStartOf="@+id/txt_pclist_itemview1_reviewcount"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:id="@+id/txt_pclist_itemview1_reviewcount"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="13sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/img_pclist_itemview1_distanceicon"
+                    android:src="@drawable/tabiconlocation"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/txt_pclist_itemview1_distance"
+                    android:layout_toStartOf="@+id/txt_pclist_itemview1_distance"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:id="@+id/txt_pclist_itemview1_distance"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Z:PC"
+            android:id="@+id/txt_pclist_itemview1_name"
+            android:textSize="23dp"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서울시 마포구 와우산로 76-1"
+            android:id="@+id/txt_pclist_itemview1_address"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="이벤트"
+                android:id="@+id/txt_pclist_itemview1_event"
+                android:textAllCaps="false"
+                android:background="@drawable/eventback"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="식사"
+                android:id="@+id/txt_pclist_itemview1_cafe"
+                android:textAllCaps="false"
+                android:background="@drawable/eventback"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="흡연실"
+                android:id="@+id/txt_pclist_itemview1_smoke"
+                android:textAllCaps="false"
+                android:background="@drawable/eventback"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="카드결제"
+                android:id="@+id/txt_pclist_itemview1_cardpay"
+                android:textAllCaps="false"
+                android:background="@drawable/eventback"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

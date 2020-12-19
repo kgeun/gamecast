@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/home_list_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/home_list_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_header_height"
+        >
+        <android.support.v4.view.ViewPager
+            android:id="@+id/home_header_pager"
+            android:layout_width="match_parent"
+            android:layout_height="230dp">
+
+        </android.support.v4.view.ViewPager>
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="48dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:id="@+id/img_header_banner_indicator1"
+                    android:src="@drawable/banner_indicator_selected"
+                    android:layout_marginRight="7dp" />
+                <ImageView
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:id="@+id/img_header_banner_indicator2"
+                    android:src="@drawable/banner_indicator_unselected"
+                    android:layout_marginRight="7dp" />
+                <ImageView
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:id="@+id/img_header_banner_indicator3"
+                    android:src="@drawable/banner_indicator_unselected"
+                    android:layout_marginRight="7dp" />
+                <ImageView
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:id="@+id/img_header_banner_indicator4"
+                    android:src="@drawable/banner_indicator_unselected"
+                    android:layout_marginRight="7dp" />
+                <ImageView
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:id="@+id/img_header_banner_indicator5"
+                    android:src="@drawable/banner_indicator_unselected"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <net.poisonlab.gamecast.PagerSlidingTabStrip
+            android:id="@+id/home_header_tab"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:background="@color/hint_foreground_material_dark" />
+    </FrameLayout>
+</FrameLayout>

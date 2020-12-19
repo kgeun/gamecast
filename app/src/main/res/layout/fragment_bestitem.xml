@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.poisonlab.gamecast.CarouselLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:id="@+id/layout_bestitems"
+        android:background="@drawable/bulpi_9patch_v2"
+        android:paddingTop="20dp"
+        android:paddingBottom="0dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/img_bestitems_tnil"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/lolplaceholder"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_weight="0.5"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.15">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="꿀잼"
+                        android:id="@+id/txt_bestitems_articlegroup1"
+                        android:textAllCaps="false"
+                        android:background="@drawable/eventback"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="6dp"
+                        android:textSize="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginRight="5dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="center_vertical"
+                        android:textAlignment="gravity" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="꿀잼"
+                        android:id="@+id/txt_bestitems_articlegroup2"
+                        android:textAllCaps="false"
+                        android:background="@drawable/eventback"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="6dp"
+                        android:textSize="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginRight="5dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="center_vertical" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="오버워치"
+                            android:id="@+id/txt_bestitems_articleGroup0"
+                            android:layout_marginLeft="3dp"
+                            android:textSize="11dp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="루시우는 미끼였다! 받아라! #가두리양식 23443252424244453432343 2423432 3424332"
+                android:id="@+id/txt_bestitems_articletitle"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/black"
+                android:singleLine="false"
+                android:ellipsize="end"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="false"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_weight="0.32"
+                android:textAlignment="gravity"
+                android:gravity="center_vertical" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.54">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_alignParentBottom="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="오버워치 하이라이트"
+                        android:id="@+id/txt_bestitems_writeranddate"
+                        android:textSize="12dp"
+                        android:layout_marginTop="2dp" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="bottom">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/material_grey_300"
+                            android:layout_marginTop="6dp" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="1"
+                            android:paddingBottom="7dp"
+                            android:gravity="center_vertical">
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.3333"
+                                android:paddingTop="11dp"
+                                android:paddingBottom="11dp"
+                                android:gravity="center_vertical|center_horizontal">
+
+                                <ImageView
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:id="@+id/img_bestitems_view"
+                                    android:src="@drawable/viewpersonicon2"
+                                    android:layout_marginRight="3dp"
+                                     />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="10"
+                                    android:id="@+id/txt_bestitems_viewcount"
+                                    android:textSize="10sp"
+                                     />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.3333"
+                                android:paddingTop="11dp"
+                                android:paddingBottom="11dp"
+                                android:orientation="horizontal"
+                                android:gravity="center_vertical|center_horizontal">
+
+                                <ImageView
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:id="@+id/imageView24"
+                                    android:src="@drawable/ddabongicon"
+                                    android:layout_marginRight="3dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="5"
+                                    android:id="@+id/txt_bestitems_likeitcount"
+                                    android:textSize="10sp"
+                                    />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.3333"
+                                android:paddingTop="11dp"
+                                android:paddingBottom="11dp"
+                                android:orientation="horizontal"
+                                android:gravity="center_vertical|center_horizontal">
+
+                                <ImageView
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:id="@+id/img_bestitems_likeit"
+                                    android:src="@drawable/commenticon"
+                                    android:layout_marginRight="3dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="10"
+                                    android:id="@+id/txt_bestitems_commentcount"
+                                    android:textSize="10sp"
+                                     />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</net.poisonlab.gamecast.CarouselLinearLayout>

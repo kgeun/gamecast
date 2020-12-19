@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="계정 관리">
+        <menu>
+            <!--<item
+                android:id="@+id/nav_editinfo"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="회원정보 수정" /> -->
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_menu_signout"
+                android:title="로그아웃" />
+        </menu>
+    </item>
+
+
+    <item android:title="게임캐스트 정보">
+        <menu>
+            <item
+                android:id="@+id/nav_companyinfo"
+                android:icon="@drawable/ic_menu_info"
+                android:title="개발사 정보" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_send"
+                android:title="문의하기 / 신고하기" />
+        </menu>
+    </item>
+
+</menu>
